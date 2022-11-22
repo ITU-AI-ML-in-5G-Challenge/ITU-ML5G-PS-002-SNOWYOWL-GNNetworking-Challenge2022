@@ -22,7 +22,7 @@ The goal of this work is to produce a training dataset of limited size (at most 
 
 The proposed solution is a three-step process, as represented here, with the goal of generating and keeping only high-quality data samples that cover all possible use cases.
 
-<img id="fig1" src="./assets/solution_overview_snowyowl_2022.png" width="100%" height="50%" />
+<img id="fig1" src="./assets/solution_snowyowl_2022.png" width="100%" height="50%" />
 
 
 ##  Training and Evaluation
