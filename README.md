@@ -23,3 +23,8 @@ The goal of this work is to produce a training dataset of limited size (at most 
 The proposed solution is a three-step process, as represented here, with the goal of generating and keeping only high-quality data samples that cover all possible use cases.
 
 <img id="fig1" src="./assets/solution_overview_snowyowl_2022.png" width="100%" height="50%" />
+
+
+##  Training and Evaluation
+### 1 - GNN model
+Download the [GNN model, i.e., RouteNet_Fermi and the datanet API](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2022_DataCentricAI/RouteNet_Fermi)  made available by the [Barcelona Neural Networking Center](https://bnn.upc.edu/), then save them in a folder named 'RouteNet_Fermi'.
