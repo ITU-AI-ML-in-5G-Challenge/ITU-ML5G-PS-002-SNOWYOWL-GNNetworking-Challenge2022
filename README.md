@@ -13,4 +13,4 @@ In order to build and train the model a working Python 3.9 enviroment is require
 • yaml==0.2.5
 
 You can install all the required packages with the following pip command:
-'''pip install notebook==6.4.11 PyYAML==6.0 tensorflow==2.7 networkx==2.8.1 matplotlib==3.5.2 astropy==5.1'''
+```pip install notebook==6.4.11 PyYAML==6.0 tensorflow==2.7 networkx==2.8.1 matplotlib==3.5.2 astropy==5.1```
