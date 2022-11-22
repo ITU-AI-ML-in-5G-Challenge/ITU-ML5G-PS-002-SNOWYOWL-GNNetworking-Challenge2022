@@ -6,11 +6,11 @@ Graph Neural Networking Challenge 2022: Improving Network Digital Twins through 
 ## Requirements
 In order to build and train the model a working Python 3.9 enviroment is required with, at least, the following packages:
 
-• numpy==1.21.5
-
 • tensorflow==2.7.0
 
 • networkx==2.8.1
+
+• numpy==1.21.5
 
 
 You can install all the required packages with the following pip command:
