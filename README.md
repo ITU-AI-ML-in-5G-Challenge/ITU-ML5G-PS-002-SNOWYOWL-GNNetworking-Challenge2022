@@ -31,7 +31,9 @@ Download the [GNN model, i.e., RouteNet_Fermi and the datanet API](https://githu
 
 ### 2 - Generate Dataset
 To generate the dataset: 
+
 • Execute the [dataset_generation.py]() script with ```python dataset_generation.py```. This will generate a first dataset named “dataset_snowyowl”. Once the first dataset is generated, the next step is to clean the dataset.
+
 • Execute the [dataset_cleaning.py]() script with ```python dataset_cleaning.py```. This will clean the first generated dataset and generate the final dataset named “dataset_snowyowl_final”. This dataset will be located in the following path “training_snowyowl/results/”.
 
 Note: For Linux based implementation, give the necessary permissions to the folder before excecuting the [dataset_cleaning.py]() script.
