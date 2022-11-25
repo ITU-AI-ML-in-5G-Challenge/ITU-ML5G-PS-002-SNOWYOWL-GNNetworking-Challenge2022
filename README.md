@@ -20,7 +20,7 @@ You can install all the required packages with the following pip command:
 ## Proposed Solution
 The goal of this work is to produce a training dataset of limited size (at most 100 samples with networks of at most 10 nodes) that should help the given GNN model, i.e. [RouteNet_Fermi](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2022_DataCentricAI/RouteNet_Fermi), scale effectively to samples of larger networks (50 to 300 nodes) than those seen during training. 
 
-As shown on the figure below, the proposed solution is a three-step process with the goal of generating and keeping only high-quality data samples that cover all possible use cases. A detailed decripttion of our solution can be found [here]().
+As shown on the figure below, the proposed solution is a three-step process with the goal of generating and keeping only high-quality data samples that cover all possible use cases. A detailed description of our solution can be found [here]().
 
 <img id="fig1" src="./assets/solution_snowyowl_2022.png" width="100%" height="100%" />
 
