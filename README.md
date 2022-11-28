@@ -32,22 +32,22 @@ Download the [GNN model, i.e., RouteNet_Fermi and the datanet API](https://githu
 ### 2 - Generate Dataset
 To generate the dataset: 
 
-• Execute the [dataset_generation.py]() script with ```python dataset_generation.py```. This will generate a first dataset named “dataset_snowyowl”. Once the first dataset is generated, the next step is to clean the dataset.
+• Execute the [dataset_generation.py](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-002-SNOWYOWL-GNNetworking-Challenge2022/blob/main/code/dataset_generation.py) script with ```python dataset_generation.py```. This will generate a first dataset named “dataset_snowyowl”. Once the first dataset is generated, the next step is to clean the dataset.
 
-• Execute the [dataset_cleaning.py]() script with ```python dataset_cleaning.py```. This will clean the first generated dataset and generate the final dataset named “dataset_snowyowl_final”. This dataset will be located in the following path “training_snowyowl/results/”.
+• Execute the [dataset_cleaning.py](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-002-SNOWYOWL-GNNetworking-Challenge2022/blob/main/code/dataset_cleaning.py) script with ```python dataset_cleaning.py```. This will clean the first generated dataset and generate the final dataset named “dataset_snowyowl_final”. This dataset will be located in the following path “training_snowyowl/results/”.
 
 Note: For Linux based implementation, give the necessary permissions to the folder before excecuting the [dataset_cleaning.py]() script.
 
 ### 2 - Train the model
 
-To train the model, execute the [train.py]() script with ```python train.py```. This will train the model using
+To train the model, execute the [train.py](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-002-SNOWYOWL-GNNetworking-Challenge2022/blob/main/code/train.py) script with ```python train.py```. This will train the model using
 the generated dataset and save the model after each epoch in a folder named “modelCheckpoints”.
 
 ### 2 - Select the best model
-To select the best model, execute the [find_best_model.py]() script with python ```find_best_model.py```. This will find the overall best model and the path of that model with be saved in a file named “Best_model.txt “.
+To select the best model, execute the [find_best_model.py](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-002-SNOWYOWL-GNNetworking-Challenge2022/blob/main/code/find_best_model.py) script with python ```find_best_model.py```. This will find the overall best model and the path of that model with be saved in a file named “Best_model.txt “.
 
 ### 2 - Evaluate the model
-To evaluate the model, execute the [evaluate.py script]() with ```python evaluate.py```. This will evaluate the best model on the validation set and print the obtained MAPE.
+To evaluate the model, execute the [evaluate.py script](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-002-SNOWYOWL-GNNetworking-Challenge2022/blob/main/code/evaluate.py) with ```python evaluate.py```. This will evaluate the best model on the validation set and print the obtained MAPE.
 
 # Credits
 This project is the result of the collaboration between:
